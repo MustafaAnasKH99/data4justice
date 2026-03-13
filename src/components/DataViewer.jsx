@@ -135,7 +135,7 @@ export default function DataViewer({ data }) {
 
 
       {filteredData.map((row, i) => (
-        <div dir="rtl" lang="ar" key={i} className="flex flex-col gap-1 p-4 text-right bg-boxes rounded-2xl mb-4">
+        <div dir="rtl" lang="ar" key={i} className="text-justify flex flex-col gap-1 p-4 bg-boxes rounded-2xl mb-4">
           <div className="tags-group flex flex-row gap-4">
             
             <div className="flex flex-row gap-4">

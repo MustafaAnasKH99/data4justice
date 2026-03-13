@@ -32,7 +32,7 @@ export default function App() {
 
   return (
     <div className="bg-main">
-      <div className="p-8 text-white">
+      <div className="p-8 text-white w-160">
         <img src={logo} alt="Company Logo" />
       </div>
       <DataViewer data={data} />
